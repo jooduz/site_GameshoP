@@ -5,3 +5,42 @@
     padding: 0px;
     box-sizing: border-box;
 }
+
+header {
+    padding: 16px 0;
+    background-color: #182c61;
+    color: #ecf0f1;
+}
+
+header h1 {
+    margin-left: 16px;
+}
+
+header ul li {
+    display: inline;
+    margin-left: 16px;
+    margin-right: 16px;
+    font-size: 24px;
+}
+
+header .container ul {
+    margin-top: 12px;
+}
+
+header ul li a {
+    color: #ecf0f1;
+    text-decoration: none;
+}
+
+header ul li a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    max-width: 1920px;
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+}

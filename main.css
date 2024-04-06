@@ -1,9 +1,12 @@
-/* Estilo 1 */
 
 * {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(255, 248, 237);
 }
 
 header {
@@ -59,7 +62,7 @@ section .container {
 
 #about .brands {
     position: relative;
-    top: 150px;
+    top: 40px;
 }
 
 .brands-list {
@@ -87,13 +90,14 @@ section {
 }
 
 section h2 {
+    color: #182c61;
     font-family: "Oswald", sans-serif;
     margin-bottom: 16px;
 }
 
 section p {
-    font-family: "Nanum Gothic", sans-serif;
-    font-weight: bold;
+    font-family: "Kanit", sans-serif;
+    font-weight: normal;
     margin-bottom: 8px;
 }
 
@@ -107,26 +111,9 @@ section p {
     display: block;
 } 
 
-#contact .message form input,
-#contact .message form textarea,
-#contact .message form button {
-    width: 300px;
-    display: block;
-}
-
-#contact .message form input {
-    padding: 4px 0;
-    margin-top: 4px;
-}
-
-#contact .message form textarea {
-    padding: 4px 0;
-    margin-top: 4px;
-}
-
-#contact .message form button {
-    padding: 4px 0;
-    margin-top: 4px;
+#contact h3 {
+    color: #182c61;
+    font-family: "Outfit", sans-serif;
 }
 
 #contact .container .contact-methods {
@@ -135,18 +122,74 @@ section p {
     justify-content: space-between;
 }
 
-.social-media-list img {
-    height: 36px;
+#contact .message form input,
+#contact .message form textarea,
+#contact .message form button {
+    width: 300px;
+    display: block;
+    margin-bottom: 8px;
+    padding: 8px;
+    outline-color: rgb(114, 199, 228);
 }
 
-.social-media-list li {
-    margin-right: 8px;
-    display: inline;
+#contact .message form button {
+    border: solid 2px #182c61;
+    border-radius: 6px;
+    color: #ecf0f1;
+    background-color: #182c61;
+    transition: transform 0.2s;
+}
+
+#contact .message form button:hover {
+    border: solid 2px #8ce0f5;
+    background-color: #8ce0f5;
+    color: #182c61;
+    transform: scale(1.1);
 }
 
 textarea {
-    height: 80px;
+    height: 150px;
     resize: none;
 }
 
+.social-media-list img {
+    transition: transform 0.2s;
+    height: 36px;
+}
+
+.social-media-list img:hover {
+    filter: none;
+    transform: scale(1.2);
+}
+
+.social-media-list {
+    margin-top: 10px;
+}
+
+.social-media-list li {
+    margin-right: 20px;
+    display: inline;
+}
+
+.location p {
+    color: #182c61;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.location iframe {
+    border: solid 3px #182c61;
+    border-radius: 4px;
+}
+
+footer {
+    background-color: #182c61;
+    padding: 8px 0;
+    text-align: center;
+}
+
+footer h5 {
+    font-family: "Oswald", sans-serif;
+    color: #ecf0f1;
+}
 

@@ -37,10 +37,15 @@ header ul li a:hover {
 }
 
 .container {
-    max-width: 1920px;
+    max-width: 1368px;
     width: 100%;
-    display: flex;
     margin: 0 auto;
+}
+
+header .container {
+    display: flex;
     align-items: center;
     justify-content: space-between;
 }
+
+section .container 
